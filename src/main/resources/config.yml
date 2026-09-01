@@ -1,0 +1,30 @@
+# KingArena Configuration File
+arena:
+  world: "world"
+  region: "king_arena"
+
+barrier:
+  enabled: true
+  material: "GLASS"
+  include-ceiling: true
+  include-walls: true
+  include-floor: false
+
+timers:
+  fight-cooldown-seconds: 60
+  king-logout-seconds: 60
+  escape-countdown-seconds: 5
+
+behavior:
+  allow-only-king-and-challenger: true
+  reject-extra-players: true
+  prevent-teleport-escape: true
+  prevent-pearl-escape: true
+
+messages:
+  arena-occupied: "&cThe King arena is currently occupied."
+  fight-start: "&6The fight has begun!"
+  winner: "&e%player% &6is now The King!"
+  arena-locked: "&cThe arena is currently locked."
+  escape: "&cYou cannot leave the King arena during the fight!"
+  not-allowed: "&cOnly The King or active challengers can enter the arena right now!"

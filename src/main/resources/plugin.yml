@@ -1,0 +1,7 @@
+name: KingArena
+version: 1.0.0
+main: com.kingarena.KingArenaPlugin
+api-version: '1.21'
+author: Developer
+description: Physical glass barrier system and King PvP state machine for WorldGuard regions.
+depend: [WorldGuard]
